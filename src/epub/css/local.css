@@ -43,3 +43,11 @@ p[epub|type~="z3998:salutation"],
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
+
+#chapter-4-13 > blockquote > p:first-child + p{
+	text-indent: 0;
+}
+
+#chapter-4-13 [epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
