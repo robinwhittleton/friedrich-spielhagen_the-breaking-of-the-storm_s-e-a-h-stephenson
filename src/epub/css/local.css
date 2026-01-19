@@ -1,6 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* Letters */
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -30,6 +31,7 @@ p[epub|type~="z3998:salutation"],
 	text-indent: 0;
 }
 
+/* Verse */
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p{
 	text-align: initial;
@@ -48,6 +50,7 @@ p[epub|type~="z3998:salutation"],
 	display: none;
 }
 
+/* Custom display for a letter with interspersed dialogue */
 #chapter-4-13 > blockquote > p:first-child + p{
 	text-indent: 0;
 }
